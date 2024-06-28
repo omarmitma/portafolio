@@ -1,0 +1,27 @@
+/* 0-base */
+@import '0-base/base-dir';
+
+/* 3-helpers */
+@import '3-helpers/helpers-dir';
+
+/* 2-modules */
+@import '2-modules/modules-dir';
+
+/* 1-pages */
+@import '1-pages/pages-dir';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,a{
+  cursor: pointer;
+  transition: .4s all;
+}
+
+/* Estilos primeng */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
