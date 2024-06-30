@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AboutMeRoutingModule } from './about-me-routing.module';
+import { AboutMeComponent } from './page/about-me/about-me.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AboutMeComponent
+  ],
   imports: [
     CommonModule,
     AboutMeRoutingModule

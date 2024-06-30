@@ -1,0 +1,139 @@
+[
+    {
+      "title": "Replica pagina tottus",
+      "description": "",
+      "link":"assets/Resource/ManualUsuarioTottus.docx",
+      "download":"ManualUsuarioTottus.docx",
+      "imagen":"assets/Images/Paginas/tottus.png",
+      "alt":"Pagina tottus omar mitma",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT","C#","SQL"]
+    },
+    {
+      "title": "Sistema de venta",
+      "description": "",
+      "link":"assets/Resource/ManualUsuarioShadys.docx",
+      "download":"ManualUsuarioShadys.docx",
+      "imagen":"assets/Images/Paginas/sistemaShadys.png",
+      "alt":"Sistema de venta shadys",
+      "filter":"Sistemas",
+      "tools":["HTML","CSS","JAVASCRIPT","Java","Mysql","Angular","Spring Boot"]
+    },
+    {
+      "title": "Página papel, piedra, tijera",
+      "description": "Puedes jugar y probar tu suerte",
+      "link":"https://omarmitma.github.io/rock-paper-scissors-master/",
+      "imagen":"assets/Images/Paginas/rock-paper-scissors-master.PNG",
+      "alt":"Pagina rock paper scissors",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Página de todos los paises",
+      "description": "Puedes buscar cualquier pais y saber los detalles",
+      "link":"https://omarmitma.github.io/countriesSearch/",
+      "imagen":"assets/Images/Paginas/REST-Countrie-API-with-color-theme.jpg",
+      "alt":"Pagina rest countri Api",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT","API"]
+    },
+    {
+      "title": "Calculadora",
+      "description": "Con cambios de temas",
+      "link":"https://omarmitma.github.io/calculator-app-main/",
+      "imagen":"assets/Images/Paginas/PaginaCalculador.png",
+      "alt":"Pagina Calculador",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Marcador de página de destino",
+      "description": "",
+      "link":"https://omarmitma.github.io/bookmark-landing-page-master/",
+      "imagen":"assets/Images/Paginas/PaginaMarcadorPagina.png",
+      "alt":"Pagina Marcador",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Administrar la página de destino",
+      "description": "",
+      "link":"https://omarmitma.github.io/manage-landing-page-master/",
+      "imagen":"assets/Images/Paginas/PaginaManageLanding.png",
+      "alt":"Pagina Manage Landing",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Página de acortamiento de URL",
+      "description": "Acortamiento de URL con API",
+      "link":"https://omarmitma.github.io/url-shortening-api-master/",
+      "imagen":"assets/Images/Paginas/PaginaShortlyURL.png",
+      "alt":"Pagina Shortly URL",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT","API"]
+    },
+    {
+      "title": "Listados de trabajo",
+      "description": "Listado con JSON",
+      "link":"https://omarmitma.github.io/static-job-listings-master/",
+      "imagen":"assets/Images/Paginas/PaginaJobListings.png",
+      "alt":"Pagina Job Listings",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT","JSON"]
+    },
+    {
+      "title": "Página de inicio de easybank",
+      "description": "",
+      "link":"https://omarmitma.github.io/easybank-landing-page-master/",
+      "imagen":"assets/Images/Paginas/PaginaEasyBank.png",
+      "alt":"Pagina EasyBanks",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Rastreador de direcciones ip",
+      "description": "Rastreador de ip con APIS",
+      "link":"https://omarmitma.github.io/ip-address-tracker-master/",
+      "imagen":"assets/Images/Paginas/PaginaIPAddress.png",
+      "alt":"Pagina IP Address",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT","API"]
+    },
+    {
+      "title": "Página de inicio de la habitación",
+      "description": "",
+      "link":"https://omarmitma.github.io/room-homepage-master/",
+      "imagen":"assets/Images/Paginas/PaginaRoomHomePage.png",
+      "alt":"Pagina Room Home Page",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Página de que haceres",
+      "description": "",
+      "link":"https://omarmitma.github.io/todo-app-main/",
+      "imagen":"assets/Images/Paginas/PaginaTodoApp.png",
+      "alt":"Pagina Todo App",
+      "filter":"Webs",
+      "tools":["HTML","CSS","JAVASCRIPT"]
+    },
+    {
+      "title": "Lado soleado",
+      "description": "",
+      "link":"https://omarmitma.github.io/FrontendSunnySide/",
+      "imagen":"assets/Images/Paginas/PaginaSunnySide.png",
+      "alt":"Pagina Sunny Side",
+      "filter":"Webs",
+      "tools":["HTML","CSS"]
+    },
+    {
+      "title": "Página de inicio de secciones curvas",
+      "description": "",
+      "link":"https://omarmitma.github.io/huddle-landing-page-with-curved-sections-master/",
+      "imagen":"assets/Images/Paginas/PaginaHuddleLanding.png",
+      "alt":"Pagina Huddle Landing",
+      "filter":"Webs",
+      "tools":["HTML","CSS"]
+    }
+]

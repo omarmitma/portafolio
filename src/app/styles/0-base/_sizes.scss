@@ -1,4 +1,9 @@
+$header-height-logo:75px;
 //Mobile
-$header-mobile-height:80px;
-$main-mobile-height:calc(100vh - $header-mobile-height);
+$header-responsive-height:55px;
+$main-mobile-height:calc(100vh - $header-responsive-height);
+$header-mobile-height-title-page:105px;
 //Desktop
+$header-width:260px;
+$main-width:calc(100vw - header-width);
+$header-height-title-page:155px;

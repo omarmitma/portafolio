@@ -8,6 +8,7 @@ const routes: Routes = [
     { path:'studies', loadChildren: () => import('@modules/studies-certification/studies-certification.module').then(m => m.StudiesCertificationModule) },
     { path:'projects', loadChildren: () => import('@modules/projects/projects.module').then(m => m.ProjectsModule) },
     { path:'skills', loadChildren: () => import('@modules/skills/skills.module').then(m => m.SkillsModule) },
+    { path:'contact', loadChildren: () => import('@modules/contact/contact.module').then(m => m.ContactModule) },
     { path:'**', redirectTo : 'about' }
   ]},
   { path:'**', redirectTo : '' }

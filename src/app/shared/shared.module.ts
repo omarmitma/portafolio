@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { NavComponent } from './component/nav/nav.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -14,6 +16,8 @@ import { FooterComponent } from './component/footer/footer.component';
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    RouterModule
   ],
   exports: [
     NavComponent,

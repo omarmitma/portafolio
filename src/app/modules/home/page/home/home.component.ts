@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  headerActive:boolean = false;
+
+  openResponsiveHeader(){
+    this.headerActive = this.headerActive ? false : true;
+  }
 }

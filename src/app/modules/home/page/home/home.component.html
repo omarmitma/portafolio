@@ -1,1 +1,28 @@
-<p>home works!</p>
+<div class="wrap-home">
+    <header [ngClass]="{ 'header-active' : headerActive }">
+        <div class="logo">
+            <h2>Omar Mitma</h2>
+            <span class="typed-element"></span>
+        </div>
+        <div class="content-with-border">
+            <app-header></app-header>
+            <footer>
+                <app-footer></app-footer>
+            </footer>
+        </div>
+
+    </header>
+    <div class="responsive-header">
+        <div class="title">
+            <h1>OMAR MITMA</h1>
+        </div>
+        <button (click)="openResponsiveHeader()">
+            <i class="pi pi-bars" style="font-size: 1.4rem"></i>
+        </button>
+    </div>
+    <main>
+       
+        <router-outlet></router-outlet>
+    </main>
+    
+</div>

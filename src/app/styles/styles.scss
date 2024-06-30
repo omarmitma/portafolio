@@ -14,11 +14,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 button,a{
   cursor: pointer;
-  transition: .4s all;
+  transition: .6s all;
+  background-color: transparent;
+  border: none;
 }
 
 /* Estilos primeng */

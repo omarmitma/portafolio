@@ -1,1 +1,49 @@
-<p>header works!</p>
+<div class="wrap-header">
+    <nav>
+        <ul>
+            <li>
+                <a [routerLink]="['/about']" routerLinkActive="nav-active">
+                    <i class="pi pi-user" ></i>
+                    Sobre Mi
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/studies']" routerLinkActive="nav-active">
+                    <i class="pi pi-graduation-cap" ></i>
+                    Estudios
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/projects']" routerLinkActive="nav-active">
+                    <i class="pi pi-briefcase" ></i>
+                    Proyectos
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/skills']" routerLinkActive="nav-active">
+                    <i class="pi pi-wrench" ></i>
+                    Habilidades
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/contact']" routerLinkActive="nav-active">
+                    <i class="pi pi-send" ></i>
+                    Contactame
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+    <div class="theme-switcher">
+        <div class="icon-theme">
+            <i class="pi pi-moon" style="font-size: 19px;"></i>
+        </div>
+        <label class="switch">
+            <input type="checkbox" [checked]="isLightTheme" (change)="toggleTheme()">
+            <span class="slider round"></span>
+        </label>
+        <div class="icon-theme">
+            <i class="pi pi-sun" style="font-size: 20px;"></i>
+        </div>
+    </div>
+</div>

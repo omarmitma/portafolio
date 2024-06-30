@@ -1,0 +1,20 @@
+.title-page{
+    padding: 10px 0;
+    width: 100%;
+    height: $header-mobile-height-title-page;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        padding: 10px;
+        border-bottom: 3px solid var(--border-header);
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media(min-width:950px){
+    .title-page{
+        height: $header-height-title-page;
+    }    
+}

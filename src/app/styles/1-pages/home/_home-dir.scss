@@ -1,0 +1,26 @@
+@import 'header';
+@import 'footer';
+
+body{
+    background-color: var(--bg-body);
+}
+
+
+main {
+    color: var(--font-color-main);
+    background-color: var(--bg-main);
+    height: calc(100vh - $header-responsive-height);
+    overflow: auto;
+    transition: .8s all;
+    padding: 0 20px;
+}
+
+@media(min-width:950px){
+    .wrap-home{
+        display: grid;
+        grid-template-columns: $header-width 1fr;
+    }
+    main {
+        height: 100vh;
+    }
+}
