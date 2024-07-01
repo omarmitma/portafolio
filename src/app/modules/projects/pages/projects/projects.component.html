@@ -2,7 +2,48 @@
     <div class="title-page">
         <h3>PROYECTOS</h3>
     </div>
-    <div class="content">
-        
+    <div class="content-project">
+        <div class="filter-project">
+            <p (click)="changeProject(1)" [ngClass]="{'filter-active': tipoActive === 1}">Todos</p>
+            <p (click)="changeProject(2)" [ngClass]="{'filter-active': tipoActive === 2}">FullStack</p>
+            <p (click)="changeProject(3)" [ngClass]="{'filter-active': tipoActive === 3}">Fronted</p>
+            <p (click)="changeProject(4)" [ngClass]="{'filter-active': tipoActive === 4}">Backend</p>
+        </div>
+        <div class="project-list">
+            <div class="project" *ngFor="let project of dataProjectFilter">
+                <div class="image">
+                    <div class="contentImage">
+                        <img [src]="project.image" [alt]="project.alt">
+                    </div>
+                </div>
+                <div class="data">
+                    <span>{{ project.nombreTipo }}</span>
+                    <h4>{{ project.title }}</h4>
+                    <p class="description">{{ project.description }}</p>
+                    <div class="rutas">
+                        <a *ngIf="project.urlFlag" [href]="project.url" target="_blank">
+                            <i class="pi pi-link"></i>
+                            Visitar
+                        </a>
+                        <a *ngIf="project.documentacionFlag" [href]="project.documentacion" [download]="project.documentacionDownload">
+                            <i class="pi pi-download"></i>
+                            Doc
+                        </a>
+                        <a *ngIf="project.gitFrontendFlag" [href]="project.gitFrontend" target="_blank">
+                            <i class="pi pi-github"></i>
+                            Frontend
+                        </a>
+                        <a *ngIf="project.gitBackendFlag" [href]="project.gitBackend" target="_blank">
+                            <i class="pi pi-github"></i>
+                            Backend
+                        </a>
+                    </div>
+                    <div class="tools">
+                        <p class="tool" *ngFor="let tool of project.tools">{{ tool }}</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
 </div>

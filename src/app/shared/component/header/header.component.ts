@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import Typed from 'typed.js';
 
 @Component({
@@ -8,6 +8,7 @@ import Typed from 'typed.js';
 })
 export class HeaderComponent implements OnInit{
 
+  @Output() eventNav = new EventEmitter<string>();
   isLightTheme = false;
 
   ngOnInit(): void {
@@ -44,6 +45,10 @@ export class HeaderComponent implements OnInit{
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
+  }
+  //Evento para navegar
+  navTo(){
+    this.eventNav.emit('nav');
   }
 
 }

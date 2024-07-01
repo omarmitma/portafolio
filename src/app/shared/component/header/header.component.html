@@ -2,31 +2,31 @@
     <nav>
         <ul>
             <li>
-                <a [routerLink]="['/about']" routerLinkActive="nav-active">
+                <a (click)="navTo()" [routerLink]="['/about']" routerLinkActive="nav-active">
                     <i class="pi pi-user" ></i>
                     Sobre Mi
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/studies']" routerLinkActive="nav-active">
+                <a (click)="navTo()" [routerLink]="['/studies']" routerLinkActive="nav-active">
                     <i class="pi pi-graduation-cap" ></i>
                     Estudios
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/projects']" routerLinkActive="nav-active">
+                <a (click)="navTo()" [routerLink]="['/projects']" routerLinkActive="nav-active">
                     <i class="pi pi-briefcase" ></i>
                     Proyectos
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/skills']" routerLinkActive="nav-active">
+                <a (click)="navTo()" [routerLink]="['/skills']" routerLinkActive="nav-active">
                     <i class="pi pi-wrench" ></i>
                     Habilidades
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/contact']" routerLinkActive="nav-active">
+                <a (click)="navTo()" [routerLink]="['/contact']" routerLinkActive="nav-active">
                     <i class="pi pi-send" ></i>
                     Contactame
                 </a>

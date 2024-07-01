@@ -29,29 +29,51 @@ $black:#000;
 
     --font-color-skills-title: #ffffff;
     --font-color-skills-text: #ffffff;
+
+    --font-color-project-filter: #bbbbbb;
+    --font-color-project-filter-active: #ffffff;
+
+    --font-color-project-data-span: #f53c32;
+    --font-color-project-data-h4: #ffffff;
+    --font-color-project-data-descripcion: #bbbbbb;
+    --font-color-project-data-rutas: #ffffff;
+    --font-color-project-data-tools: #c1c1c1;
+    
     //Color
     --color-icon-theme-switch: #cbcbcb;
     //Background
-    --bg-body: #292c35;
+    --bg-body: #161719;
     --bg-header: #010101;
     --bg-header-nav-hover: #f53c32;
     --bg-header-nav-active: #f53c32;
-    --bg-main: #292c35;
+    --bg-main: #161719;
     --bg-footer: #010101;
     --bg-buttons: #f53c32;
 
-    --bg-items-certificados: #373839;
-    --bg-items-skills: #373839;
+    --bg-items-certificados: #353535;
+    --bg-items-skills: #353535;
+
+    --bg-filter-project: #252627;
+    --bg-filter-project-active: #353535;
+    --bg-project-rutas: #272829;
+    --bg-project-tools: #1c1d1d;
 
     --bg-switch: #cbcbcb;
     --bg-circle-switch: #2d2d2d;
 
+    --bg-project-image: #77777754;
+    
     --bg-scroll: #f53c32;
     //Border
     --border-header:#f53c32;
     --border-linea-studies:#f53c32;
     --border-items-skills:#4f4f4f;
     --border-items-certificados:#4f4f4f;
+    --border-projects-filter:#4f4f4f;
+    --border-projects:#272829;
+    --border-projects-ruta:#373839;
+    --border-projects-ruta-hover:#646669;
+    --border-projects-tool:#373839;
 }
 
 //Colores claros
@@ -82,6 +104,15 @@ $black:#000;
 
     --font-color-skills-title: #000000;
     --font-color-skills-text: #000000;
+
+    --font-color-project-filter: #696969;
+    --font-color-project-filter-active: #000000;
+
+    --font-color-project-data-span: #f53c32;
+    --font-color-project-data-h4: #000000;
+    --font-color-project-data-descripcion: #444444;
+    --font-color-project-data-rutas: #000000;
+    --font-color-project-data-tools: #2f2f2f;
     //Color
     --color-icon-theme-switch: #2d2d2d;
     //Background
@@ -96,8 +127,17 @@ $black:#000;
     --bg-items-certificados: #bcbcbc;
     --bg-items-skills: #bcbcbc;
 
+    --bg-filter-project: #bcbcbc;
+    --bg-filter-project-active: #e9e9e9;
+
+    --bg-project-rutas: #d9dfe5;
+    --bg-project-tools: #d8dfdf;
+    
     --bg-switch: #2d2d2d;
     --bg-circle-switch: #cbcbcb;
+
+    --bg-project-image: #dbe0e409;
+    
 
     --bg-scroll: #f53c32;
     //Border
@@ -105,4 +145,9 @@ $black:#000;
     --border-linea-studies:#f53c32;
     --border-items-skills:#949494;
     --border-items-certificados:#949494;
+    --border-projects-filter:#949494;
+    --border-projects:#949494;
+    --border-projects-ruta:#c6c6c7;
+    --border-projects-ruta-hover:#979797;
+    --border-projects-tool:#d9dde0;
 }

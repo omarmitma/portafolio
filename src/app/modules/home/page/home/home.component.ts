@@ -12,4 +12,8 @@ export class HomeComponent {
   openResponsiveHeader(){
     this.headerActive = this.headerActive ? false : true;
   }
+
+  eventNav(nav:string){
+    this.openResponsiveHeader();
+  }
 }

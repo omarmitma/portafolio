@@ -1,5 +1,6 @@
 .content-skills{
     display: grid;
+    gap: 10px;
     .skill{
         text-align: center;
         background-color: var(--bg-items-skills);
@@ -24,6 +25,9 @@
                 p{
                     font-size: 13px;
                     color: var(--font-color-skills-text);
+                }
+                &:hover{
+                    transform: scale(1.15);
                 }
             }
         }
