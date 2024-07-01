@@ -39,8 +39,17 @@ $black:#000;
     --font-color-project-data-rutas: #ffffff;
     --font-color-project-data-tools: #c1c1c1;
     
+    --font-color-contact-label-input-span: #bababa;
+    --font-color-contact-label-input-span-top: #bababa;
+    --font-color-contact-label-input-input: #ffffff;
+    --font-color-contact-label-input-textarea: #ffffff;
+
+    --font-color-contact-more: #ffffff;
+    --font-color-contact-link: #acacac;
+    --font-color-contact-link-hover:#ffffff;
     //Color
     --color-icon-theme-switch: #cbcbcb;
+    --red-contact:#f53c32;
     //Background
     --bg-body: #161719;
     --bg-header: #010101;
@@ -64,6 +73,9 @@ $black:#000;
     --bg-project-image: #77777754;
     
     --bg-scroll: #f53c32;
+
+    --bg-contact-label-input-span: #161719;
+    
     //Border
     --border-header:#f53c32;
     --border-linea-studies:#f53c32;
@@ -74,6 +86,8 @@ $black:#000;
     --border-projects-ruta:#373839;
     --border-projects-ruta-hover:#646669;
     --border-projects-tool:#373839;
+
+    --border-contact-label-input:#dadada;
 }
 
 //Colores claros
@@ -113,8 +127,18 @@ $black:#000;
     --font-color-project-data-descripcion: #444444;
     --font-color-project-data-rutas: #000000;
     --font-color-project-data-tools: #2f2f2f;
+
+    --font-color-contact-label-input-span: #555555;
+    --font-color-contact-label-input-span-top: #555555;
+    --font-color-contact-label-input-input: #000000;
+    --font-color-contact-label-input-textarea: #000000;
+
+    --font-color-contact-more: #000000;
+    --font-color-contact-link: #626262;
+    --font-color-contact-link-hover:#000000;
     //Color
     --color-icon-theme-switch: #2d2d2d;
+    --red-contact:#f53c32;
     //Background
     --bg-body: #d2d2d2;
     --bg-header: #ffffff;
@@ -138,8 +162,9 @@ $black:#000;
 
     --bg-project-image: #dbe0e409;
     
-
     --bg-scroll: #f53c32;
+
+    --bg-contact-label-input-span: #d2d2d2;
     //Border
     --border-header:#f53c32;
     --border-linea-studies:#f53c32;
@@ -150,4 +175,6 @@ $black:#000;
     --border-projects-ruta:#c6c6c7;
     --border-projects-ruta-hover:#979797;
     --border-projects-tool:#d9dde0;
+
+    --border-contact-label-input:#343434;
 }

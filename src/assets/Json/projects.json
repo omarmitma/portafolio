@@ -1,5 +1,43 @@
 [
     {
+      "title": "Sistema escritorio RHH - Planilla",
+      "description": "Sistema de escritorio desarrollado para empresa textil, este sistema tiene todo los modulos para RRHH y planilla, desde asistencia del empleado hasta la remuneracion con sus descuentos al empleado",
+      "documentacion":"",
+      "documentacionDownload":"",
+      "url":"",
+      "image":"assets/Images/Paginas/sistemaRRhhPlanilla.png",
+      "alt":"sistema escritorio rrhh planilla",
+      "tipo":2,
+      "nombreTipo":"Full Stack",
+      "tools":["C#",".Net","Entity FrameWork", "WPF"],
+      "gitFrontend":"",
+      "gitBackend":"",
+      "urlFlag":false,
+      "documentacionFlag":false,
+      "gitFrontendFlag":false,
+      "gitBackendFlag":false
+
+    },
+    {
+      "title": "Trento - Sistema web",
+      "description": "Sistema desarrollado para la empresa textil Trento, este sistema tiene todos los modulos necesarios para la empresa textil como UDP, Produccion, Comercial, Maestros y Configuracion",
+      "documentacion":"",
+      "documentacionDownload":"",
+      "url":"",
+      "image":"assets/Images/Paginas/ctrento.png",
+      "alt":"sistema web ctrento",
+      "tipo":2,
+      "nombreTipo":"Full Stack",
+      "tools":["Angular 14","Scss","JWT","Typescript","C#",".Net","Entity FrameWork"],
+      "gitFrontend":"",
+      "gitBackend":"",
+      "urlFlag":false,
+      "documentacionFlag":false,
+      "gitFrontendFlag":false,
+      "gitBackendFlag":false
+
+    },
+    {
       "title": "El barrigon - sistema web",
       "description": "Sistema desarrollado para el restaurante el barrigon, cuenta con logeo para clientes y administradores, para los clientes tiene un modulo donde puede elegir los platos y pagar, el administrador puede ver las estadisticas de cada cosa, agregar platos, reportes, etc.",
       "documentacion":"",
@@ -9,14 +47,50 @@
       "alt":"sistema El barrigon",
       "tipo":2,
       "nombreTipo":"Full Stack",
-      "tools":["Angular 14","Scss","Typescript","c#",".Net","Entity FrameWork","Api"],
-      "gitFrontend":"https://github.com/omarmitma/frontend-el-barrigon",
-      "gitBackend":"https://github.com/omarmitma/backend-el-barrigon",
+      "tools":["Angular 14","Scss","Typescript","C#",".Net","Entity FrameWork","Api"],
+      "gitFrontend":"https://github.com/omarmitma/frontend-el-barrigon/tree/master",
+      "gitBackend":"https://github.com/omarmitma/backend-el-barrigon/tree/master",
       "urlFlag":false,
       "documentacionFlag":false,
       "gitFrontendFlag":true,
       "gitBackendFlag":true
 
+    },
+    {
+      "title": "Music Hub",
+      "description": "Pagina web donde puedes escuchar musica variada con opciones de favorito, historial, playlist y agregar amigos, puedes ver lo que escucha tus amigos",
+      "documentacion":"",
+      "documentacionDownload":"",
+      "url":"",
+      "image":"assets/Images/Paginas/musicHub.png",
+      "alt":"Pagina music Hub",
+      "tipo":2,
+      "nombreTipo":"Full Stack",
+      "tools":["Angular 16","Scss","Typescript",".Net","Token"],
+      "gitFrontend":"https://github.com/omarmitma/MusicHubFrontend",
+      "gitBackend":"",
+      "urlFlag":false,
+      "documentacionFlag":false,
+      "gitFrontendFlag":true,
+      "gitBackendFlag":false
+    },
+    {
+      "title": "Pagina Listado de membresia",
+      "description": "Pagina web donde se lista las membresias de un usuario, este puede ver los cronogramas de pago, en cada cronograma tiene un boucher y puede confirmar el pago",
+      "documentacion":"",
+      "documentacionDownload":"",
+      "url":"",
+      "image":"assets/Images/Paginas/listaMembresia.png",
+      "alt":"Pagina Listado de membresia",
+      "tipo":3,
+      "nombreTipo":"Fronted",
+      "tools":["Angular 16","JWT","APIs"],
+      "gitFrontend":"https://github.com/omarmitma/keOla-Prueba/tree/master",
+      "gitBackend":"",
+      "urlFlag":false,
+      "documentacionFlag":false,
+      "gitFrontendFlag":true,
+      "gitBackendFlag":false
     },
     {
       "title": "Api Spring Boot",
@@ -35,7 +109,6 @@
       "documentacionFlag":false,
       "gitFrontendFlag":false,
       "gitBackendFlag":true
-
     },
     {
       "title": "Replica pagina tottus",

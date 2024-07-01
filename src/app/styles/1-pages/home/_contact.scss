@@ -1,0 +1,162 @@
+.content-contact{
+    display: grid;
+    .image{
+        display: none;
+        width: 100%;
+    }
+    form{
+        margin: auto;
+        width: 90%;
+        .contentInput{
+            position: relative;
+            .labelInput{
+                border: 1px solid var(--border-contact-label-input);
+                display: block;
+                border-radius: 4px;
+                position: relative;
+                transition: .3s all;
+                padding: 10px 8px;
+                cursor: text;
+                span{
+                    transition: .3s all;
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    font-size: 12px;
+                    color: var(--font-color-contact-label-input-span);
+                }
+                input{
+                    display: block;
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    color: var(--font-color-contact-label-input-input);
+                    font-size: 12px;
+                }
+                textarea{
+                    display: block;
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    color: var(--font-color-contact-label-input-textarea);
+                    font-size: 12px;
+                    resize: none;
+                }
+            }
+            .labelInputFocus{
+                border: 1px solid var(--red-contact);
+                span{
+                    left: 7px;
+                    top: -10px;
+                    font-size: 10px;
+                    color: var(--red-contact);
+                    background-color: var(--bg-contact-label-input-span);
+                    padding: 0 5px;
+                }
+            }
+            .labelInputTop{
+                span{
+                    left: 7px;
+                    top: -10px;
+                    font-size: 10px;
+                    color: var(--font-color-contact-label-input-span-top);
+                    background-color: var(--bg-contact-label-input-span);
+                    padding: 0 5px;
+                }
+            }
+            .alertDanger{
+                margin: 5px 0;
+                height: 15px;
+                .containerErrorMessage{
+                    text-align: left;
+                    font-size: 9px;
+                    color: var(--red-contact);
+                }
+                img{
+                    position: absolute;
+                    right: 10px;
+                    top: 12px;
+                    width: 14px;
+                }
+            }
+        }
+        .alterSucces{
+            position: relative;
+            padding-top: 25px;
+            .msg{
+                position: absolute;
+                text-align: left;
+                top: 0;
+                left: 0;
+            }
+            button{
+                background-color: var(--red-contact);
+                color: #fff;
+                width: 100%;
+                padding: 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            button:hover:not([disabled]){
+                background-color: #ce1910;
+            }
+            button:disabled{
+                cursor: default;
+            }
+        }
+       
+    }
+}
+
+.more-contact{
+    margin-top: 40px;
+    h4{
+        font-size: 25px;
+        font-weight: 400;
+        color: var(--font-color-contact-more);
+    }
+    .items{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        a{
+            color: var(--font-color-contact-link);
+            i{
+                color: var(--font-color-contact-link);
+            }
+            &:hover{
+                color: var(--font-color-contact-link-hover);
+                i{
+                    color: var(--font-color-contact-link-hover);
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(min-width:575px){
+    .content-contact{
+        display: grid;
+        grid-template-columns: 40% 58%;
+        gap: 2%;
+        .image{
+            display: flex;
+            img{
+                width: 80%;
+                margin: auto;
+                object-fit: contain;
+            }
+        }
+        form{
+            
+        }
+    }
+    
+}

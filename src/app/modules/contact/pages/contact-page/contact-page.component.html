@@ -2,7 +2,87 @@
     <div class="title-page">
         <h3>CONTACTO</h3>
     </div>
-    <div class="content">
-        
+    <div class="content-contact">
+        <div class="image">
+            <img src="assets/Icons/buzon.png" alt="undraw contact us re 4qqt">
+        </div>
+        <form action="" [formGroup]="contactForm" (ngSubmit)="onSaveForm()">
+            <div class="contentInput">
+                <label class="labelInput">
+                    <span>Nombre:</span>
+                    <input type="text" class="input" formControlName="name" >
+                </label>
+                <div class="alertDanger" >
+                    <div *ngIf="name.invalid && (name.dirty || name.touched)">
+                        <div class="containerErrorMessage" *ngIf="name.hasError('required')">Este campo es requerido</div>
+                        <div class="containerErrorMessage" *ngIf="name.hasError('minlength')">El minimo de caracteres es 2</div>
+                        <img src="assets/Icons/warning.png" alt="icon warning">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="contentInput">
+                <label class="labelInput">
+                    <span>Correo:</span>
+                    <input type="text" class="input" formControlName="email" >
+                </label>
+                <div class="alertDanger">
+                    <div  *ngIf="email.invalid && (email.dirty || email.touched)">
+                        <div class="containerErrorMessage" *ngIf="email.hasError('required')">Este campo es requerido</div>
+                        <div class="containerErrorMessage" *ngIf="email.hasError('pattern')">Email no valido</div>
+                        <img src="assets/Icons/warning.png" alt="icon warning">
+                    </div>
+                </div>
+            </div>
+            <div class="contentInput">
+                <label class="labelInput">
+                    <span>Asunto:</span>
+                    <input type="text" class="input" formControlName="asunto" >
+                </label>
+                <div class="alertDanger" >
+                    <div *ngIf="asunto.invalid && (asunto.dirty || asunto.touched)">
+                        <div class="containerErrorMessage" *ngIf="asunto.hasError('required')">Este campo es requerido</div>
+                        <div class="containerErrorMessage" *ngIf="asunto.hasError('minlength')">El minimo de caracteres es 5</div>
+                        <img src="assets/Icons/warning.png" alt="icon warning">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="contentInput">
+                <label class="labelInput">
+                    <span>Mensaje:</span>
+                    <textarea name="" id="" cols="30" rows="4" class="input" formControlName="message" ></textarea>
+                </label>
+                <div class="alertDanger">
+                    <div  *ngIf="message.invalid && (message.dirty || message.touched)">
+                        <div class="containerErrorMessage" *ngIf="message.hasError('required')">Este campo es requerido</div>
+                        <div class="containerErrorMessage" *ngIf="message.hasError('minlength')">El minimo de caracteres es 5</div>
+                        <div class="containerErrorMessage" *ngIf="message.hasError('maxlength')">El maximo de caracteres es 350</div>
+                        <img src="assets/Icons/warning.png" alt="icon warning">
+                    </div>
+                </div>
+            </div>
+            <div class="alterSucces" >
+                <button type="submit" [disabled]="!contactForm.valid"><p *ngIf="!contactForm.valid">Llenar campos</p><p *ngIf="contactForm.valid">Enviar</p></button>
+            </div>
+            
+        </form>
+    </div>
+    <div class="more-contact">
+        <h4>Informacion de contacto</h4>
+        <div class="items">
+            <a href="https://wa.me/51931899489" target="_blank">
+                <i class="pi pi-whatsapp"></i>
+                +51 931 899 489
+            </a>
+            <a href="mailto:omarmitma123@gmail.com">
+                <i class="pi pi-envelope"></i>
+                omarmitma123@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/omar-mitma-8aa67522a" target="_blank">
+                <i class="pi pi-linkedin"></i>
+                Omar Mitma
+            </a>
+        </div>
     </div>
 </div>
