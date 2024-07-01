@@ -1,0 +1,211 @@
+[
+    {
+        "grupo":"Frontend",
+        "detalle":[
+            {
+                "nombre":"HTML",
+                "image":"assets/Icons/html.png",
+                "alt":"icon html",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"CSS",
+                "image":"assets/Icons/css.png",
+                "alt":"icon css",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"JavaScript",
+                "image":"assets/Icons/js.png",
+                "alt":"icon js",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"TypeScript",
+                "image":"assets/Icons/typescript.png",
+                "alt":"icon TypeScript",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Sass",
+                "image":"assets/Icons/sass.png",
+                "alt":"icon sass",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Angular",
+                "image":"assets/Icons/angular.png",
+                "alt":"icon Angular",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Bootstrap",
+                "image":"assets/Icons/bootstrap.png",
+                "alt":"icon Bootstrap",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Angular Material",
+                "image":"assets/Icons/material.png",
+                "alt":"icon angularMaterial",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"PrimeNg",
+                "image":"assets/Icons/primeng.png",
+                "alt":"icon primeng",
+                "nivel":"Avanzado",
+                "porcentage":80
+            }
+        ]
+    },
+    {
+        "grupo":"Backend",
+        "detalle":[
+            {
+                "nombre":"C#",
+                "image":"assets/Icons/csharp.png",
+                "alt":"icon csharp",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":".NET",
+                "image":"assets/Icons/net.jpg",
+                "alt":"icon net",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"JAVA",
+                "image":"assets/Icons/java.png",
+                "alt":"icon java",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Spring Boot",
+                "image":"assets/Icons/springBoot.png",
+                "alt":"icon springBoot",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"SQL Server",
+                "image":"assets/Icons/sqlServer.png",
+                "alt":"icon sqlServer",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"MYSQL",
+                "image":"assets/Icons/mysql.png",
+                "alt":"icon mysql",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"MongoDB",
+                "image":"assets/Icons/mongodb.png",
+                "alt":"icon mongoDb",
+                "nivel":"Avanzado",
+                "porcentage":80
+            }
+        ]
+    },
+    {
+        "grupo":"Herramientas",
+        "detalle":[
+            {
+                "nombre":"WordPress",
+                "image":"assets/Icons/wordpress.png",
+                "alt":"icon wordPress",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Git",
+                "image":"assets/Icons/git.png",
+                "alt":"icon git",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"GitHub",
+                "image":"assets/Icons/github.png",
+                "alt":"icon gitHub",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Visual Studio",
+                "image":"assets/Icons/visualStudio.png",
+                "alt":"icon visualStudio",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Visual Studio Code",
+                "image":"assets/Icons/visualStudioCode.png",
+                "alt":"icon visualStudioCode",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Apache Netbeans",
+                "image":"assets/Icons/apacheNetbeans.png",
+                "alt":"icon apache",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Postman",
+                "image":"assets/Icons/postman.png",
+                "alt":"icon postman",
+                "nivel":"Avanzado",
+                "porcentage":80
+            }
+        ]
+    },
+    {
+        "grupo":"Nube",
+        "detalle":[
+            {
+                "nombre":"AWS",
+                "image":"assets/Icons/aws.png",
+                "alt":"icon aws",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Azure",
+                "image":"assets/Icons/azure.png",
+                "alt":"icon azure",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"FireBase",
+                "image":"assets/Icons/firebase.png",
+                "alt":"icon fireBase",
+                "nivel":"Avanzado",
+                "porcentage":80
+            },
+            {
+                "nombre":"Cloudinary",
+                "image":"assets/Icons/cloudinary.png",
+                "alt":"icon cloudinary",
+                "nivel":"Avanzado",
+                "porcentage":80
+            }
+        ]
+    }
+]

@@ -6,15 +6,39 @@
     justify-content: center;
     align-items: center;
     h3{
-        padding: 10px;
-        border-bottom: 3px solid var(--border-header);
-        font-size: 30px;
+        position: relative;
+        padding: 10px 20px;
+        font-size: 20px;
         font-weight: 500;
+        color: var(--font-color-main-title);
+        &::before{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 0;
+            left: 0;
+            border-top: 3px solid var(--border-header);
+            border-left: 3px solid var(--border-header);
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            bottom: 0;
+            right: 0;
+            border-bottom: 3px solid var(--border-header);
+            border-right: 3px solid var(--border-header);
+        }
     }
 }
 
-@media(min-width:950px){
+@media(min-width:760px){
     .title-page{
         height: $header-height-title-page;
+        h3{
+            font-size: 27px;
+        }
     }    
 }

@@ -1,6 +1,15 @@
 footer {
-    color: var(--font-color-footer);
     background-color: var(--bg-footer);
-    transition: .8s all;
     padding-left: 20px;
+
+}
+
+.copyright{
+    font-size: 10px;
+    p{
+        color: var(--font-color-footer);
+        span{
+            color: var(--font-color-footer);
+        }
+    }
 }

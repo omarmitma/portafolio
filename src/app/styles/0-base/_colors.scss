@@ -10,7 +10,25 @@ $black:#000;
     --font-color-header-nav-hover: #dedede;
     --font-color-header-nav-active: #f0f0f0;
     --font-color-main: #ffffff;
+    --font-color-main-title: #ffffff;
     --font-color-footer: #ffffff;
+    --font-color-buttons: #f0f0f0;
+    
+    --font-color-lugar: #f0f0f0;
+    --font-color-fecha: #f0f0f0;
+    --font-color-educacion: #f0f0f0;
+    --font-color-descripcion: #f0f0f0;
+    --font-color-certificado-title:#ffffff;
+    --font-color-certificado-nombre: #f0f0f0;
+    --font-color-certificado-detail: #aeaeae;
+
+    --font-color-title-header: #ffffff;
+    --font-color-title-about: #ffffff;
+    --font-color-title-nacionalidad: #ffffff;
+    --font-color-title-text: #ffffff;
+
+    --font-color-skills-title: #ffffff;
+    --font-color-skills-text: #ffffff;
     //Color
     --color-icon-theme-switch: #cbcbcb;
     //Background
@@ -20,6 +38,10 @@ $black:#000;
     --bg-header-nav-active: #f53c32;
     --bg-main: #292c35;
     --bg-footer: #010101;
+    --bg-buttons: #f53c32;
+
+    --bg-items-certificados: #373839;
+    --bg-items-skills: #373839;
 
     --bg-switch: #cbcbcb;
     --bg-circle-switch: #2d2d2d;
@@ -27,6 +49,9 @@ $black:#000;
     --bg-scroll: #f53c32;
     //Border
     --border-header:#f53c32;
+    --border-linea-studies:#f53c32;
+    --border-items-skills:#4f4f4f;
+    --border-items-certificados:#4f4f4f;
 }
 
 //Colores claros
@@ -37,7 +62,26 @@ $black:#000;
     --font-color-header-nav-hover: #dedede;
     --font-color-header-nav-active: #f0f0f0;
     --font-color-main: #000000;
+    --font-color-main-title: #000000;
     --font-color-footer: #000000;
+    --font-color-buttons: #f0f0f0;
+
+    --font-color-lugar: #222222;
+    --font-color-fecha: #222222;
+    --font-color-educacion: #000000;
+    --font-color-descripcion: #222222;
+
+    --font-color-certificado-title:#000000;
+    --font-color-certificado-nombre: #222222;
+    --font-color-certificado-detail: #222222;
+    
+    --font-color-title-header: #000000;
+    --font-color-title-about: #000000;
+    --font-color-title-nacionalidad: #000000;
+    --font-color-title-text: #000000;
+
+    --font-color-skills-title: #000000;
+    --font-color-skills-text: #000000;
     //Color
     --color-icon-theme-switch: #2d2d2d;
     //Background
@@ -47,6 +91,10 @@ $black:#000;
     --bg-header-nav-active: #f53c32;
     --bg-main: #d2d2d2;
     --bg-footer: #ffffff;
+    --bg-buttons: #f53c32;
+
+    --bg-items-certificados: #bcbcbc;
+    --bg-items-skills: #bcbcbc;
 
     --bg-switch: #2d2d2d;
     --bg-circle-switch: #cbcbcb;
@@ -54,4 +102,7 @@ $black:#000;
     --bg-scroll: #f53c32;
     //Border
     --border-header:#f53c32;
+    --border-linea-studies:#f53c32;
+    --border-items-skills:#949494;
+    --border-items-certificados:#949494;
 }

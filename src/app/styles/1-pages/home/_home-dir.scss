@@ -1,5 +1,8 @@
 @import 'header';
 @import 'footer';
+@import 'about';
+@import 'studies';
+@import 'skills';
 
 body{
     background-color: var(--bg-body);
@@ -11,8 +14,15 @@ main {
     background-color: var(--bg-main);
     height: calc(100vh - $header-responsive-height);
     overflow: auto;
-    transition: .8s all;
-    padding: 0 20px;
+    padding: 0 20px 20px;
+    
+}
+
+@media(min-width:760px){
+
+    main {
+        padding: 0 40px;
+    }
 }
 
 @media(min-width:950px){
@@ -22,5 +32,6 @@ main {
     }
     main {
         height: 100vh;
+        padding: 0 60px 30px;
     }
 }

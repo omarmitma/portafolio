@@ -1,0 +1,39 @@
+.content-about{
+    .image{
+        display: none;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 40px;
+            color: var(--font-color-title-about);
+        }
+        span{
+            margin: 10px 0;
+            color: var(--font-color-title-nacionalidad);
+        }
+        .text-main{
+            letter-spacing: 1px;
+            line-height: 25px;
+            margin: 45px 0;
+            font-size: 16px;
+            color: var(--font-color-title-text);
+        }
+    }
+}
+
+@media(min-width:760px){
+    .content-about{
+        display: grid;
+        grid-template-columns: 55% 35%;
+        gap: 10%;
+        .image{
+            display: flex;
+        }
+    }
+}

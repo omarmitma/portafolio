@@ -1,0 +1,50 @@
+[
+    {
+        "lugar":"Fe y Alegria N13",
+        "fecha":"2008 - 2019",
+        "educacion":"Primaria y secundaria",
+        "descripcion":"Estudie en el colegio Fe y Alegria N 13 en Comas Collique",
+        "image":"assets/Images/Colegio.jpg",
+        "alt":"Image Colegio Fe y Alegria"
+    },
+    {
+        "lugar":"CETPRO CARABAYLLO",
+        "fecha":"20017 - 2018",
+        "educacion":"Ensamblaje de computadoras",
+        "descripcion":"Estudie en el CETPRO CARABAYLLO donde me familiarize con la arquitectura, tecnologia y funcionamiento de las computadoras ",
+        "image":"assets/Images/cetpro-carabayllo.jpg",
+        "alt":"Image CETPRO CARABAYLLO"
+    },
+    {
+        "lugar":"SISE",
+        "fecha":"2020 - 2023",
+        "educacion":"Computacion e informatica",
+        "descripcion":"Saque mi bachiller y titulo de Desarrollo de sistema de Informacion en el Instituo SISE",
+        "image":"assets/Images/Sise.jpg",
+        "alt":"Image Sise"
+    },
+    {
+        "lugar":"Formacion a distancia",
+        "fecha":"2020 - 2021",
+        "educacion":"Office",
+        "descripcion":"Estudie cursos de office donde aprendi excel, powert point, word",
+        "image":"assets/Images/Office.png",
+        "alt":"Image Office"
+    },
+    {
+       "lugar":"Formacion a distancia",
+        "fecha":"2019 - 2021",
+        "educacion":"Desarrollo web - Frontend",
+        "descripcion":"Estudie todo relacionado al frontend con las tecnologias de HTML, CSS, SCSS, Javascript, Typescript, JSON, Angular, React ",
+        "image":"assets/Images/DesarrolloWeb.jpg",
+        "alt":"Image Laptop fondo"
+    },
+    {
+        "lugar":"Formacion a distancia",
+        "fecha":"2019 - 2021",
+        "educacion":"Servicios y Microservicios - Backend",
+        "descripcion":"Estudie cursos de servicios y microservicios con los lenguajes de c# con .net y java con spring boot",
+        "image":"assets/Images/Frameworks.png",
+        "alt":"Image Frameworks Spring Boot"
+    }
+]

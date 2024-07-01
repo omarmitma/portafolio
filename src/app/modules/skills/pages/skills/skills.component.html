@@ -2,7 +2,15 @@
     <div class="title-page">
         <h3>HABILIDADES</h3>
     </div>
-    <div class="content">
-        
+    <div class="content-skills">
+        <div class="skill" *ngFor="let skill of skillsData">
+            <h3>{{ skill.grupo }}</h3>
+            <div class="content-detail-skill">
+                <div class="detail-skill" *ngFor="let deta of skill.detalle">
+                    <img [src]="deta.image" [alt]="deta.alt">
+                    <p>{{ deta.nombre }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

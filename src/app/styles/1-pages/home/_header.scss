@@ -9,8 +9,8 @@ header {
     top: $header-responsive-height;
     left: 0;
     transform: translateX(-100%);
-    transition: .8s all;
     padding-left: 15px;
+    z-index: 100;
 }
 .header-active{
     transform: translateX(0);
@@ -27,6 +27,7 @@ header {
     border-bottom: 2px solid var(--border-header);
     h1{
         font-size: 20px;
+        color: var(--font-color-title-header);
     }
 }
 .content-with-border{
@@ -45,6 +46,12 @@ header {
 .logo{
     padding: 10px 0 0 20px;
     height: $header-height-logo;
+    h2{
+        color: var(--font-color-title-header);
+    }
+    span{
+        color: var(--font-color-title-header);
+    }
 }
 nav{
     margin: 20px 0;
