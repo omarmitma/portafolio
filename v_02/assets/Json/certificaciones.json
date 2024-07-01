@@ -1,0 +1,163 @@
+[
+    {
+        "grupo":"Programacion",
+        "certificados": [
+            {
+                "nombre":"Cascading Style Sheets",
+                "fecha":"30/04/2022",
+                "proveedor":"HackerRank",
+                "link":"assets/Resource/certificados/css.pdf",
+                "nombreArchivo":"css.pdf"
+            },
+            {
+                "nombre":"Desarrollo de Apps Mobile",
+                "fecha":"15/01/2023",
+                "proveedor":"Google",
+                "link":"assets/Resource/certificados/desarrolloAppsMobiles.pdf",
+                "nombreArchivo":"desarrolloAppsMobiles.pdf"
+            },
+            {
+                "nombre":"Introduccion al desarrollo web I",
+                "fecha":"30/03/2022",
+                "proveedor":"Google",
+                "link":"assets/Resource/certificados/introduccion_al_desarrollo_web.pdf",
+                "nombreArchivo":"introduccion_al_desarrollo_web.pdf"
+            },
+            {
+                "nombre":"Introduccion al desarrollo web II",
+                "fecha":"02/10/2022",
+                "proveedor":"Google",
+                "link":"assets/Resource/certificados/introduccion_al_desarrollo_web_2.pdf",
+                "nombreArchivo":"introduccion_al_desarrollo_web_2.pdf"
+            },
+            {
+                "nombre":"JAVASCRIPT",
+                "fecha":"02/05/2022",
+                "proveedor":"HackerRank",
+                "link":"assets/Resource/certificados/javascript_basic.pdf",
+                "nombreArchivo":"javascript_basic.pdf"
+            },
+            {
+                "nombre":"Problem solving Basic",
+                "fecha":"30/04/2022",
+                "proveedor":"HackerRank",
+                "link":"assets/Resource/certificados/problema_solving_basic.pdf",
+                "nombreArchivo":"problema_solving_basic.pdf"
+            },
+            {
+                "nombre":"Problem solving Intermediate",
+                "fecha":"18/10/2023",
+                "proveedor":"HackerRank",
+                "link":"assets/Resource/certificados/problema_solving_intermediate.pdf",
+                "nombreArchivo":"problema_solving_intermediate.pdf"
+            },
+            {
+                "nombre":"Python",
+                "fecha":"10/10/2021",
+                "proveedor":"Cisco",
+                "link":"assets/Resource/certificados/python.pdf",
+                "nombreArchivo":"python.pdf"
+            },
+            {
+                "nombre":"Sql Basic",
+                "fecha":"30/04/2022",
+                "proveedor":"HackerRank",
+                "link":"assets/Resource/certificados/sql_basic.pdf",
+                "nombreArchivo":"sql_basic.pdf"
+            }
+        ]
+    },
+    {
+        "grupo":"TI",
+        "certificados": [
+            {
+                "nombre":"Cyberseguridad",
+                "fecha":"19/07/2021",
+                "proveedor":"CISCO",
+                "link":"assets/Resource/certificados/cybersecurity_Essentials.pdf",
+                "nombreArchivo":"cybersecurity_Essentials.pdf"
+            },
+            {
+                "nombre":"Introduccion a redes",
+                "fecha":"19/10/2021",
+                "proveedor":"CISCO",
+                "link":"assets/Resource/certificados/introduccion_redes.pdf",
+                "nombreArchivo":"introduccion_redes.pdf"
+            },
+            {
+                "nombre":"Introducción a la Seguridad Cibernética",
+                "fecha":"29/03/2021",
+                "proveedor":"CISCO",
+                "link":"assets/Resource/certificados/introduccion_seguridad_cibernetica.pdf",
+                "nombreArchivo":"introduccion_seguridad_cibernetica.pdf"
+            },
+            {
+                "nombre":"IT",
+                "fecha":"13/01/2021",
+                "proveedor":"CISCO",
+                "link":"assets/Resource/certificados/it.pdf",
+                "nombreArchivo":"it.pdf"
+            }
+        ]
+    },
+    {
+        "grupo":"Idioma",
+        "certificados": [
+            {
+                "nombre":"Ingles Basico",
+                "fecha":"27/06/2022",
+                "proveedor":"SISE",
+                "link":"assets/Resource/certificados/ingles_basico.pdf",
+                "nombreArchivo":"ingles_basico.pdf"
+            },
+            {
+                "nombre":"Ingles Intermedio",
+                "fecha":"11/08/2023",
+                "proveedor":"SISE",
+                "link":"assets/Resource/certificados/ingles_intermedio.pdf",
+                "nombreArchivo":"ingles_intermedio.pdf"
+            }
+        ]
+    },
+    {
+        "grupo":"Otros",
+        "certificados": [
+            {
+                "nombre":"Cloud Computing",
+                "fecha":"14/12/2021",
+                "proveedor":"Google",
+                "link":"assets/Resource/certificados/cloud_computing.pdf",
+                "nombreArchivo":"cloud_computing.pdf"
+            },
+            {
+                "nombre":"Comercio Electronico",
+                "fecha":"26/03/2023",
+                "proveedor":"Google",
+                "link":"assets/Resource/certificados/comercio_electronico.pdf",
+                "nombreArchivo":"comercio_electronico.pdf"
+            },
+            {
+                "nombre":"Entrepreneurship",
+                "fecha":"25/03/2022",
+                "proveedor":"Cisco",
+                "link":"assets/Resource/certificados/entrepreneurship.pdf",
+                "nombreArchivo":"entrepreneurship.pdf"
+            },
+            {
+                "nombre":"Get Connect",
+                "fecha":"11/10/2020",
+                "proveedor":"Cisco",
+                "link":"assets/Resource/certificados/get_connect.pdf",
+                "nombreArchivo":"get_connect.pdf"
+            },
+            {
+                "nombre":"Packet Tracer",
+                "fecha":"27/12/2020",
+                "proveedor":"Cisco",
+                "link":"assets/Resource/certificados/packet_tracer.pdf",
+                "nombreArchivo":"packet_tracer.pdf"
+            }
+            
+        ]
+    }
+]
