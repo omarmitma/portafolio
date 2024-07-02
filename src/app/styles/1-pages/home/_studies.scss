@@ -1,7 +1,10 @@
+.contentStudies{
+    padding: 5px;
+}
 .studyList{
     margin-top: 50px;
     position: relative;
-    padding: 60px 0;
+    padding: 60px 5px;
     .item{
         display: flex;
         flex-direction: column;
@@ -101,7 +104,7 @@
             .certificados{
                 margin-top: 20px;
                 display: grid;
-                grid-template-columns: repeat( auto-fit, 145px );
+                grid-template-columns: repeat( auto-fit, 155px );
                 gap: 10px;
                 .certificado{
                     display: grid;

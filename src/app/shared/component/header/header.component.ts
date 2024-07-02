@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit{
   //
   initTyped(){
     var typed = new Typed(".typed-element", {
-      strings: ["Web Developer", "Frelance","Full Stack"],
+      strings: ["Web Developer", "Freelancer","Full Stack"],
       typeSpeed: 25,
       backSpeed: 40,
       backDelay: 1000,
